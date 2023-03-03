@@ -5,16 +5,16 @@ The purpose of this analysis was to use deep learning models to vet donation app
 
 ## Results
 
-- Data Preprocessing
--- The variable(s) considered the target(s) for the model is the IS_SUCCESSFUL column.
--- The variable(s) considered to be the features for your model are 
--- What variable(s) are neither targets nor features, and should be removed from the input data?
+Data Preprocessing
+- The variable(s) considered the target(s) for the model is the IS_SUCCESSFUL column.
+- The variable(s) considered to be the features for your model are 
+- The variable(s) that are neither targets nor features, and should be removed from the input data are 'EIN' & 'NAME
 
 ![application_df](resources/images/application_df1.png)
 
-- Compiling, Training, and Evaluating the Model
--- How many neurons, layers, and activation functions did you select for your neural network model, and why?
--- Were you able to achieve the target model performance?
--- What steps did you take to try and increase model performance?
+Compiling, Training, and Evaluating the Model
+- How many neurons, layers, and activation functions did you select for your neural network model, and why?
+- Were you able to achieve the target model performance?
+- What steps did you take to try and increase model performance?
 
 ## Summary
