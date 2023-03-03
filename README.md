@@ -23,10 +23,15 @@ Data Preprocessing
     SPECIAL_CONSIDERATIONS—Special consideration for application  
     ASK_AMT—Funding amount requested
 
+- We inspected the number of unique values and identified columns that had more than 10 unique values. We would need bucketing to reduce the number of dummy columns. This would be indicated by the "other" column.
+
 ![application_df](resources/images/unique_values.png)
 
+We look at the APPLICATION_TYPE value counts for binning and generated a density plot
+![application_df](resources/images/valuecounts.png)
 
-- We inspected the number of unique values and identified columns that had more than 10 unique values. We would need bucketing to reduce the number of dummy columns. This would be indicated by the "other" column.
+![application_df](resources/images/visualvaluecounts.png)
+
 
 Compiling, Training, and Evaluating the Model
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
