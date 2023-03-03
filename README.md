@@ -67,4 +67,4 @@ Compiling, Training, and Evaluating the Model
 
 
 ## Summary
-The accuracy fell short of 75%, at 72%. One consideration and approach would be to get more data to improve the accuracy and be better able to predict if the organization would be succcessful if funded by AlphabetSoup.
+The accuracy fell short of 75%, at 72%. One consideration and approach would be to get more data to improve the accuracy to be better able to predict if the organization would be succcessful if funded by AlphabetSoup.
