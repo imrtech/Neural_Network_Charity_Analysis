@@ -10,6 +10,8 @@ The purpose of this analysis was to use deep learning models to vet donation app
 -- The variable(s) considered to be the features for your model are 
 -- What variable(s) are neither targets nor features, and should be removed from the input data?
 
+![application_df](resources/images/application_df1.png)
+
 - Compiling, Training, and Evaluating the Model
 -- How many neurons, layers, and activation functions did you select for your neural network model, and why?
 -- Were you able to achieve the target model performance?
