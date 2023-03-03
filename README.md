@@ -27,10 +27,19 @@ Data Preprocessing
 
 ![application_df](resources/images/unique_values.png)
 
-We look at the APPLICATION_TYPE value counts for binning and generated a density plot
+- We looked at the APPLICATION_TYPE value counts for binning and generated a density plot.
+
 ![application_df](resources/images/valuecounts.png)
 
 ![application_df](resources/images/visualvaluecounts.png)
+
+- To further reduce the unique values, we filtered the list of value counts that occured less than 500 times in the column. We used the replace method to replace all of those values with "other". The same procedure was used for the CLASSIFICATION column.
+
+![application_df](resources/images/replace.png)
+
+- We generated categorical variables
+
+![application_df](resources/images/categorical.png)
 
 
 Compiling, Training, and Evaluating the Model
