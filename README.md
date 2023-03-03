@@ -8,15 +8,16 @@ The purpose of this analysis was to use deep learning models to vet donation app
 Data Preprocessing
 - The variable(s) considered the target(s) for the model is the IS_SUCCESSFUL column.
 - The variable(s) considered to be the features for your model are:
-APPLICATION_TYPE—Alphabet Soup application type
-AFFILIATION—Affiliated sector of industry
-CLASSIFICATION—Government organization classification
-USE_CASE—Use case for funding
-ORGANIZATION—Organization type
-STATUS—Active status
-INCOME_AMT—Income classification
-SPECIAL_CONSIDERATIONS—Special consideration for application
-ASK_AMT—Funding amount requested
+
+    APPLICATION_TYPE—Alphabet Soup application type  
+    AFFILIATION—Affiliated sector of industry  
+    CLASSIFICATION—Government organization classification  
+    USE_CASE—Use case for funding  
+    ORGANIZATION—Organization type  
+    STATUS—Active status  
+    INCOME_AMT—Income classification  
+    SPECIAL_CONSIDERATIONS—Special consideration for application  
+    ASK_AMT—Funding amount requested
 
 - The variable(s) that are neither targets nor features, and should be removed from the input data are 'EIN' & 'NAME
 
