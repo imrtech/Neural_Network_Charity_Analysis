@@ -41,10 +41,30 @@ Data Preprocessing
 
 ![application_df](resources/images/categorical.png)
 
+- We encoded the categorical variables using one-hot encoding, placed the variables in a new DataFrame and finally merged the one-hot encoding DataFrame with the original DataFrame.
+
+![application_df](resources/images/onehotencoder.png)
+
+- We split the dataset between "y" target and "X" features and split the preprocessed data into a training and testing dataset. 
+
+![application_df](resources/images/splitandtrain.png)
+
 
 Compiling, Training, and Evaluating the Model
-- How many neurons, layers, and activation functions did you select for your neural network model, and why?
-- Were you able to achieve the target model performance?
-- What steps did you take to try and increase model performance?
+- The first hidden layer has 80 neurons, the second has 30. The activation function of hidden layers was "relu" and the output layer is "sigmoid". 
+
+![application_df](resources/images/compiletrainevaluate.png)
+
+- I was not able to achieve the target for the model of 75% accuracy. Instead my accuracy was 52%.
+
+![application_df](resources/images/trainmodel.png)
+
+- To increase model performance, I added hidden layers, changed the activation function from "relu" to "tanh" and also increased the number of epochs but realized this did not make a huge difference. I therefore went back to using 100 epochs. Unfortunately, even with these changes I was not able to reach or surpass the target of 75% accuracy. 
+
+![application_df](resources/images/compiletrainevaluate2.png)
+
+![application_df](resources/images/trainmodel2.png)
+
 
 ## Summary
+The accuracy fell short of 75%, at 72%. One consideration and approach would be to get more data to improve the accuracy and be better able to predict if the organization would be succcessful if funded by AlphabetSoup.
