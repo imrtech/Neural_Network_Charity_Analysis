@@ -6,8 +6,12 @@ The purpose of this analysis was to use deep learning models to vet donation app
 ## Results
 
 Data Preprocessing
-- The variable(s) considered the target(s) for the model is the IS_SUCCESSFUL column.
-- The variable(s) considered to be the features for your model are:
+- We inspected the data and dropped two columns that were not needed, "EIN" and "NAME". These neither targets nor features.
+
+![application_df](resources/images/drop.png)
+
+- The variable considered as the target for the model is the IS_SUCCESSFUL column.
+- The variable(s) considered to be the features for the model are:
 
     APPLICATION_TYPE—Alphabet Soup application type  
     AFFILIATION—Affiliated sector of industry  
@@ -19,9 +23,10 @@ Data Preprocessing
     SPECIAL_CONSIDERATIONS—Special consideration for application  
     ASK_AMT—Funding amount requested
 
-- The variable(s) that are neither targets nor features, and should be removed from the input data are 'EIN' & 'NAME
+![application_df](resources/images/unique_values.png)
 
-![application_df](resources/images/application_df1.png)
+
+- We inspected the number of unique values and identified columns that had more than 10 unique values. We would need bucketing to reduce the number of dummy columns. This would be indicated by the "other" column.
 
 Compiling, Training, and Evaluating the Model
 - How many neurons, layers, and activation functions did you select for your neural network model, and why?
